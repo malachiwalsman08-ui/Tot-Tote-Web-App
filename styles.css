@@ -5,6 +5,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  padding-bottom: 100px;
   background-color: #fcfdcd;
   position: relative;
 }
@@ -15,13 +16,14 @@
   padding: 20px;
 }
 .nav-container {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  bottom: 20px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   background-color: #e6e6fa;
   border-radius: 10px;
   padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.8);
 }
 .nav {
   width: 30%;
@@ -34,9 +36,43 @@
 .nav-logo {
   width: 32px;
   height: auto;
-  filter: brightness(0) saturate(100%) invert(81%) sepia(25%) saturate(1234%) hue-rotate(220deg) brightness(102%) contrast(101%);
 }
 .logo {
   width: 64px;
   height: auto;
+}
+main {
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+p {
+  color: #666;
+  line-height: 1.6;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.product {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+}
+ul {
+  text-align: left;
+  display: inline-block;
+  margin: 20px 0;
+}
+li {
+  margin-bottom: 10px;
 }
