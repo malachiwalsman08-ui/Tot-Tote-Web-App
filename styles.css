@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fcfdcd;
+  position: relative;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.nav-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e6e6fa;
+  border-radius: 10px;
+  padding: 10px;
+}
+.nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  margin: 0;
+  position: static;
+}
+.nav-logo {
+  width: 32px;
+  height: auto;
+  filter: brightness(0) saturate(100%) invert(81%) sepia(25%) saturate(1234%) hue-rotate(220deg) brightness(102%) contrast(101%);
+}
+.logo {
+  width: 64px;
+  height: auto;
+}
