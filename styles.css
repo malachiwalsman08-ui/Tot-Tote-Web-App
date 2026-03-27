@@ -23,14 +23,13 @@
 }
 .nav-container {
   position: fixed;
-  bottom: 30px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--lavender);
-  border-radius: 18px;
-  padding: 16px 18px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.85);
-  max-width: min(420px, calc(100% - 32px));
+  background-color: #d6fbe4;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.8);
 }
 .nav {
   width: 100%;
@@ -46,7 +45,8 @@ footer {
 .nav-logo {
   width: 32px;
   height: auto;
-  filter: brightness(0) saturate(100%) invert(96%) sepia(7%) saturate(38%) hue-rotate(18deg) brightness(102%) contrast(100%);
+  margin: 0 10px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) brightness(170%) contrast(130%);
 }
 .logo {
   width: 64px;
