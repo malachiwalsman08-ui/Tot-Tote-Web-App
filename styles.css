@@ -3,6 +3,8 @@
   --lavender-soft: #f5f2ff;
   --text-primary: #333;
   --text-secondary: #666;
+  --green: #d6fbe4;
+  --peach: #ffe5d9;
 }
 .body {
   display: flex;
@@ -12,7 +14,7 @@
   margin: 0;
   padding: 0;
   padding-bottom: 120px;
-  background-color: var(--lavender);
+  background-color: var(--peach);
   font-family: 'Inter', sans-serif;
 }
 .header-container {
@@ -26,7 +28,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #d6fbe4;
+  background-color: var(--lavender);
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.8);
@@ -72,7 +74,7 @@ p {
   gap: 20px;
 }
 .product {
-  background: #fff;
+  background: var(--lavender-soft);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -87,17 +89,12 @@ ul {
 li {
   margin-bottom: 10px;
 }
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #e6e6fa;
-}
 /* Mobile App Styles for Home Page */
 .hero {
   padding: 60px 20px 40px;
   text-align: center;
-  background: linear-gradient(135deg, #fcfdcd 0%, #e6e6fa 100%);
-  min-height: 50vh;
+  background: var(--green);
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,7 +128,7 @@ footer {
 }
 .features {
   padding: 40px 20px;
-  background: #fff;
+  background: var(--lavender-soft);
 }
 .features h2 {
   text-align: center;
@@ -147,7 +144,7 @@ footer {
   margin: 0 auto;
 }
 .feature-card {
-  background: #f9f9f9;
+  background: var(--lavender-soft);
   padding: 30px 20px;
   border-radius: 15px;
   text-align: center;
